@@ -2,6 +2,7 @@ import React from 'react';
 import Cards from './Cards';
 import Chart from './Chart';
 import SideNav from './SideNav';
+import User from './User';
 
 const Dashboard = () => {
     return (
@@ -9,6 +10,7 @@ const Dashboard = () => {
             <SideNav />
             <Cards />
             <Chart />
+            <User />
 
 
         </div>
